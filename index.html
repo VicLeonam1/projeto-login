@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <img src="images/predio.jpg" alt="predio">
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p id="left">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configuraçoes no seu ambiente.</p>
+                <form action="login.php" method="post" autocomplete="" >
+                    <p class="fundo">
+                        <label for="email"><span class="material-symbols-outlined">person</span></label>
+                        <input type="email" name="email" id="email" placeholder="Email">
+                    </p>
+                    <p class="fundo">
+                        <label for="senha"><span class="material-symbols-outlined">key</span></label>
+                        <input type="password" name="senha" id="senha" placeholder="Senha">
+                    </p>
+                    <p>
+                        <input type="submit" value="Entrar" id="Entrar">
+                    </p>
+                    <divi id="Esc">
+                        <a href="esqueci.html"> Esqueci a senha <span class="material-symbols-outlined" id="verde">mail</span></a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

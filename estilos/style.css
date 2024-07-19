@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(110, 38, 110);
+}
+
+main {
+ width: 54.5vw;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 5px 5px 20px black;
+  margin: auto;
+  margin-top: 10%;
+}
+
+#formulario {
+  text-align: center;
+  padding: 10px;
+}
+
+.fundo {
+  background-color: purple;
+  margin: 4px;
+  border-radius: 7px;
+}
+
+.material-symbols-outlined {
+  display: block;
+  transform: translate(-1px, 5px);
+    color: rgb(255, 255, 255);
+  padding: 5px;
+}
+
+#left {
+  text-align: justify;
+  font-size: 15px;
+}
+
+section img {
+  width: 54.5vw;
+  border-radius: 30px 30px 0px 0px;
+  height: 210px;
+}
+
+section input {
+  padding: 12px;
+  border-radius: 7px;
+  border: none;
+  transform: translate(5px ,-2px);
+}
+
+#Entrar{
+    transform: translate(0px, 0px);
+    background-color: rgb(59, 211, 147);
+    color: white;
+    width: 246px;
+    font-size: 18px;
+}
+
+#Esc{
+    display: block;
+    border-radius: 7px;
+    border: 1px solid rgb(59, 211, 147);
+    width: 224px;
+    padding: 10px;
+    margin: 4px;
+    margin-bottom: 20px;
+}
+
+#verde{
+    color: rgb(37, 117, 84);
+    font-size: 15px;
+    transform: translateY(2px);
+    padding: 0px;
+    margin: 0px;
+}
+
+form a{
+    text-decoration: none;
+    padding-left: 15px;
+    color: rgb(37, 117, 84);
+}
+
