@@ -1,1 +1,218 @@
 @charset "UTF-8";
+
+/*Typical device breakpoint
+
+Pequenas telas: até 600px
+Celular:  de 600px até 768px
+Tablet: 768px até 992px 
+Desktop: 992px até 1200px
+Grandes telas: acima 1200px
+
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  body {
+    background-image: linear-gradient(purple, rgb(59, 211, 147));
+    background-attachment: fixed;
+  }
+  main {
+    height: 350px;
+    width: 80vw;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px black;
+    margin: auto;
+    margin-top: 15%;
+    transition: 0.2s;
+  }
+
+  div {
+    display: inline-block;
+  }
+
+  section img {
+    display: inline-block;
+    width: 250px;
+    border-radius: 30px 0px 0px 30px;
+    height: 350px;
+    transition: 0.2s;
+  }
+  .fundo {
+    width: 100%;
+    margin: 5px;
+  }
+  #formulario {
+    transform: translateY(-40px);
+    display: inline-block;
+    transition: 0.2s;
+    width: 48%;
+    margin-left: 25px;
+  }
+  section input {
+    padding: 11px;
+    width: 70%;
+    border-radius: 7px;
+    border: none;
+    transform: translate(5px, -2px);
+  }
+
+  #Entrar {
+    width: 100%;
+    transform: translateX(4px);
+  }
+
+  #Esc {
+    width: 94%;
+    transform: translateX(4px);
+  }
+
+  #left {
+    width: 100%;
+  }
+  #formulario h1 {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+      }
+    
+      body {
+        background-image: linear-gradient(purple, rgb(59, 211, 147));
+        background-attachment: fixed;
+      }
+      main {
+        height: 319px;
+        width: 76vw;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 5px 5px 20px black;
+        margin: auto;
+        margin-top: 15%;
+        transition: 0.2s;
+      }
+    
+      div {
+        display: inline-block;
+      }
+    
+      section img {
+        display: inline-block;
+        width: 250px;
+        border-radius: 30px 0px 0px 30px;
+        height: 320px;
+        transition: 0.2s;
+      }
+      .fundo {
+        width: 100%;
+        margin: 5px;
+      }
+      #formulario {
+        transform: translateY(-40px);
+        display: inline-block;
+        transition: 0.2s;
+        margin-left: 30px;
+        width: 58%
+      }
+      section input {
+        padding: 11px;
+        width: 79%;
+        border-radius: 7px;
+        border: none;
+        transform: translate(5px, -2px);
+      }
+    
+      #Entrar {
+        width: 100%;
+        transform: translateX(4px);
+      }
+    
+      #Esc {
+        width: 94%;
+        transform: translateX(4px);
+      }
+    
+      #left {
+        width: 100%;
+      }
+      #formulario h1 {
+        width: 100%;
+      }
+}
+
+@media screen and (min-width: 1200px) {
+    * {
+       margin: 0px;
+       padding: 0px;
+     }
+   
+     body {
+       background-image: linear-gradient(purple, rgb(59, 211, 147));
+       background-attachment: fixed;
+     }
+     main {
+       height: 500px;
+       width: 86vw;
+       background-color: white;
+       border-radius: 30px;
+       box-shadow: 5px 5px 20px black;
+       margin: auto;
+       margin-top: 5%;
+       transition: 0.2s;
+     }
+   
+     div {
+       display: inline-block;
+     }
+   
+     main img {
+       display: inline-block;
+       width: 370px;
+       border-radius: 30px 0px 0px 30px;
+       height: 500px;
+       transition: 0.2s;
+     }
+     .fundo {
+       width: 90%;
+       margin: auto;
+       margin-top: 5px;
+       margin-bottom: 5px;
+     }
+     #formulario {
+       transform: translateY(-50%);
+       display: inline-block;
+       transition: 0.2s;
+       width:58%;
+     }
+     section input {
+       padding: 11px;
+       width: 82%;
+       border-radius: 7px;
+       border: none;
+       transform: translate(5px, -2px);
+     }
+   
+     #Entrar {
+       width: 90%;
+       
+     }
+   
+     #Esc {
+       width: 87%;
+     }
+   
+     #left {
+       width: 100%;
+     }
+     #formulario h1 {
+       width: 100%;
+     }
+}

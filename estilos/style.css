@@ -16,7 +16,7 @@ main {
   border-radius: 30px;
   box-shadow: 5px 5px 20px black;
   margin: auto;
-  margin-top: 25%;
+  margin-top: 20%;
 }
 
 #formulario {
@@ -25,8 +25,11 @@ main {
 }
 
 .fundo {
+  
+  width: 250px;
   background-color: purple;
-  margin: 4px;
+  margin: auto;
+  margin-bottom: 5px;
   border-radius: 7px;
 }
 
