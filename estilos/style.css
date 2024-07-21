@@ -11,7 +11,7 @@ body {
 }
 
 main {
- width: 70vw;
+  width: 70vw;
   background-color: white;
   border-radius: 30px;
   box-shadow: 5px 5px 20px black;
@@ -25,7 +25,6 @@ main {
 }
 
 .fundo {
-  
   width: 250px;
   background-color: purple;
   margin: auto;
@@ -36,7 +35,7 @@ main {
 .material-symbols-outlined {
   display: block;
   transform: translate(-1px, 5px);
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   padding: 5px;
 }
 
@@ -57,40 +56,39 @@ section input {
   width: 170px;
   border-radius: 7px;
   border: none;
-  transform: translate(5px ,-2px);
+  transform: translate(5px, -2px);
 }
 
-#Entrar{
-    transform: translate(0px, 0px);
-    background-color: rgb(59, 211, 147);
-    color: white;
-    width: 246px;
-    font-size: 18px;
+#Entrar {
+  transform: translate(0px, 0px);
+  background-color: rgb(59, 211, 147);
+  color: white;
+  width: 246px;
+  font-size: 18px;
 }
 
-#Esc{
-    display: block;
-    border-radius: 7px;
-    border: 1px solid rgb(59, 211, 147);
-    width: 224px;
-    padding: 10px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
+#Esc {
+  display: block;
+  border-radius: 7px;
+  border: 1px solid rgb(59, 211, 147);
+  width: 224px;
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-#verde{
-    color: rgb(37, 117, 84);
-    font-size: 15px;
-    transform: translateY(2px);
-    padding: 0px;
-    margin: 0px;
+#verde {
+  color: rgb(37, 117, 84);
+  font-size: 15px;
+  transform: translateY(2px);
+  padding: 0px;
+  margin: 0px;
 }
 
-form a{
-    text-decoration: none;
-    padding-left: 15px;
-    color: rgb(37, 117, 84);
-    margin: auto;
+form a {
+  text-decoration: none;
+  padding-left: 15px;
+  color: rgb(37, 117, 84);
+  margin: auto;
 }
-
